@@ -1,0 +1,15 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Taller_E_Datos.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/Taller_E_Datos.dir/Estructura.cpp.obj: dyndep
+
+build CMakeFiles/Taller_E_Datos.dir/Solicitud.cpp.obj: dyndep
+
+build CMakeFiles/Taller_E_Datos.dir/Proyecto.cpp.obj: dyndep
+
+build CMakeFiles/Taller_E_Datos.dir/BuildTheEarth.cpp.obj: dyndep
+
+build CMakeFiles/Taller_E_Datos.dir/ArregloDinamico.cpp.obj: dyndep
+
+build CMakeFiles/Taller_E_Datos.dir/ListaSolicitudes.cpp.obj: dyndep
+

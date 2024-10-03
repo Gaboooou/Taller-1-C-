@@ -1,0 +1,3 @@
+C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main/cmake-build-debug/CMakeFiles/Taller_E_Datos.dir
+C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,105 @@
+@startuml
+
+left to right direction
+skin rose
+
+abstract Estructura{
+
+- nickname: String
+- fecha: String
+- descripcion: String
+- dificultad: String
+
++estructura(nickname: String,dificultad: String,fecha: String,Descripcion: String)
++ getNickname(): String
++ getFecha(): String
++ getDescripcion(): String
++ getDificultad(): String
+
+}
+class Solicitud {
+
+- puntos: int
+- ciudad: String
+
++ solicitud(puntos: int;ciudad: String)
++ getPuntos(): int
++ getCiudad(): String
+}
+
+class Proyecto {
+
+- id: String
+- finalizado: Boolean
+
++ Proyecto(id: String, finalizado: Boolean)
++ getId(): String
++ getFinalizado(): Boolean
+}
+
+class buildTheEarthImpl {
+
+buildTheEarthImpl()
+
+}
+
+interface buildTheEarth {
++ menu() :void
++ GuardarProyecto(): void
++ menuFiltros(): void
+
+}
+
+class ListaSolicitudes{
++addSolicitud(): void
++ListaSolicitudes(): void
++~ListaSolicitudes(): void
++cantidadSolicitudes(): int
++mostrarSolicitudActual(): void
++eliminarPrimeraSolicitud(): void
++estaVacia(): bool
++reiniciarLista(): void
++mostrarSiguienteSolicitud(): void
++gestionarSolicitudes(): void
++leerArchivoSolicitudes(): void
++obtenerFechaActual(): string
+}
+
+class ListaProyectos{
+-size: int
+-amount: int
+-arr: Proyecto
++ArregloDinamico(): void
++~ArregloDinamico(): void
++int getAmount(): int
++agregar(data Proyecto): void
++eliminar(index int): void
++obtenerPosicion(): void
++volverAEvaluarProyecto(): void
++AplicarFiltro(filtroFinalizado: bool,aplicarFiltros: bool, filtroAnio: bool, filtroMes: bool, filtroNickname: bool, filtroDificultad: bool
+,anio: string ,mes: string,nickname: string,dificultad: string);
++Porcentajes(): void
++MostrarInformacion(): void
++recorrerArregloDinamico(arr: Proyecto): void
++insertar(data Proyecto,index int): void
++expandir(): void
++shrink(): void
++leerArchivoProyectos(): void
+}
+
+
+
+Estructura <|-- Solicitud
+Estructura <|-- Proyecto
+buildTheEarth <|.. buildTheEarthImpl
+Solicitud "1" --> "0..*" ListaSolicitudes
+Proyecto "1"-->"0..*" ListaProyectos
+ListaSolicitudes --> buildTheEarthImpl
+ListaProyectos --> buildTheEarthImpl
+
+
+
+}
+
+
+@enduml

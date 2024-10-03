@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/Taller_E_Datos.dir/ListaSolicitudes.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

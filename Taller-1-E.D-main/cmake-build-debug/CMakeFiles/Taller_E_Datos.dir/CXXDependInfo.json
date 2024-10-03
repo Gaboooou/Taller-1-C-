@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main",
+	"dir-top-bld" : "C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main/cmake-build-debug",
+	"dir-top-src" : "C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/ulloc/Desktop/Taller-1-E.D-master (1)/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-master/Taller-1-E.D-main/cmake-build-debug/CMakeFiles/Taller_E_Datos.dir"
+}
