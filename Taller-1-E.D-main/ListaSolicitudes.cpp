@@ -87,7 +87,7 @@ void ListaSolicitudes::mostrarSolicitudActual() const {
     std::cout << "Dificultad: " << solicitud.getDificultad() << std::endl;
     std::cout << "Puntos: " << solicitud.getPuntos() << std::endl;
     std::cout << "Descripción: " << solicitud.getDescripcion() << std::endl;
-    // Puedes agregar más detalles aquí si lo deseas
+
 }
 
 /**
